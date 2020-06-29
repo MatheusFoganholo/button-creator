@@ -11,6 +11,7 @@ label {
 
 input {
     display: block;
+    width: 95%;
 }
 
 #button-creator {
@@ -32,7 +33,7 @@ input {
 .css {
     font-family: 'IBM Plex Mono', monospace;
     color: #333;
-    margin-top: 40px;
+    margin-top: .5rem;
     display: flex;
     flex-direction: column;
 }
@@ -40,4 +41,25 @@ input {
 .css span {
     display: block;
     margin-bottom: .5rem;
+}
+
+.result h2 {
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+@media (max-width: 800px) {
+    #button-creator {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .result {
+        margin-top: 2rem;
+    }
+
+    .result h2 {
+        margin-top: 1.7rem;
+    }
 }
