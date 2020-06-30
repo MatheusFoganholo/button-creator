@@ -32,7 +32,7 @@ const handleStyle = {
     this.element.style.fontFamily = value;
   },
   fontSize(value) {
-    this.element.style.fontSize = value + 'rem';
+    this.element.style.fontSize = value + 'px';
   },
 }
 
