@@ -7,7 +7,7 @@ controls.addEventListener('change', handleChange);
 // Object to change the style of the button
 const handleStyle = {
   element: button,
-  texto(value) {
+  text(value) {
     this.element.innerText = value;
   },
   color(value) {
